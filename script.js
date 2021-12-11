@@ -8,6 +8,7 @@ btnRed.addEventListener("click", redText)
 
 function redText()
 {
+    console.log("Doing Pull request")
     textInput = inputText.value.toUpperCase();
     console.log(textInput)
     outputVal.textContent = textInput;
